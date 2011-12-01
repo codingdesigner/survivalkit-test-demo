@@ -22,13 +22,11 @@
  * HTML5 display definitions
  * ========================================================================== */
 /* Corrects block display not defined in IE6/7/8/9 & FF3 */
-/* line 11, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
 /* Corrects inline-block display not defined in IE6/7/8/9 & FF3 */
-/* line 17, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
@@ -36,7 +34,6 @@ audio, canvas, video {
 }
 
 /* Prevents modern browsers from displaying 'audio' without controls */
-/* line 25, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 audio:not([controls]), [hidden] {
   display: none;
 }
@@ -51,7 +48,6 @@ audio:not([controls]), [hidden] {
  * 2. Keeps page centred in all browsers regardless of content height
  * 3. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
-/* line 43, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 html {
   font-size: 100%;
   /* 1 */
@@ -64,14 +60,12 @@ html {
 }
 
 /* Addresses margins handled incorrectly in IE6/7 */
-/* line 56, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 body {
   margin: 0;
   font-family: sans-serif;
 }
 
 /* Addresses font-family inconsistency between 'textarea' and other form elements. */
-/* line 63, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 button, input, select, textarea {
   font-family: sans-serif;
 }
@@ -79,19 +73,15 @@ button, input, select, textarea {
 /* =============================================================================
  * Links
  * ========================================================================== */
-/* line 70, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 a {
   color: #0000ee;
 }
-/* line 72, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 a:visited {
   color: #551a8b;
 }
-/* line 74, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 a:focus {
   outline: thin dotted;
 }
-/* line 76, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 a:hover, a:active {
   outline: 0;
 }
@@ -103,30 +93,25 @@ a:hover, a:active {
  * Typography
  * ========================================================================== */
 /* Addresses styling not present in IE7/8/9, S5, Chrome */
-/* line 93, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
 /* Addresses style set to 'bolder' in FF3/4, S4/5, Chrome */
-/* line 99, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 b, strong {
   font-weight: bold;
 }
 
-/* line 102, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 blockquote {
   margin: 1em 40px;
 }
 
 /* Addresses styling not present in S5, Chrome */
-/* line 108, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 dfn {
   font-style: italic;
 }
 
 /* Addresses styling not present in IE6/7/8/9 */
-/* line 114, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 mark {
   background: yellow;
   color: black;
@@ -134,7 +119,6 @@ mark {
 
 /* Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
-/* line 122, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 pre, code, kbd, samp {
   font-family: monospace, serif;
   _font-family: "courier new", monospace;
@@ -142,7 +126,6 @@ pre, code, kbd, samp {
 }
 
 /* Improves readability of pre-formatted text in all browsers */
-/* line 130, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -152,25 +135,21 @@ pre {
 /* 1. Addresses CSS quotes not supported in IE6/7
  * 2. Addresses quote property not supported in S4 */
 /* 1 */
-/* line 141, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 q {
   quotes: none;
 }
-/* line 143, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 q:before, q:after {
   content: "";
   content: none;
 }
 
 /* 2 */
-/* line 149, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 small {
   font-size: 75%;
 }
 
 /* Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930 */
-/* line 156, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 sub {
   font-size: 75%;
   line-height: 0;
@@ -178,7 +157,6 @@ sub {
   vertical-align: baseline;
 }
 
-/* line 162, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 sup {
   font-size: 75%;
   line-height: 0;
@@ -187,7 +165,6 @@ sup {
   top: -0.5em;
 }
 
-/* line 169, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 sub {
   bottom: -0.25em;
 }
@@ -195,18 +172,15 @@ sub {
 /* =============================================================================
  * Lists
  * ========================================================================== */
-/* line 176, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 40px;
 }
 
-/* line 180, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 dd {
   margin: 0 0 0 40px;
 }
 
-/* line 184, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 nav ul, nav ol {
   list-style: none;
   list-style-image: none;
@@ -218,7 +192,6 @@ nav ul, nav ol {
 /* 1. Removes border when inside 'a' element in IE6/7/8/9
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
-/* line 197, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 img {
   border: 0;
   /* 1 */
@@ -227,7 +200,6 @@ img {
 }
 
 /* Corrects overflow displayed oddly in IE9 */
-/* line 206, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -236,7 +208,6 @@ svg:not(:root) {
  * Figures
  * ========================================================================== */
 /* Addresses margin not present in IE6/7/8/9, S5, O11 */
-/* line 216, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 figure, form {
   margin: 0;
 }
@@ -246,7 +217,6 @@ figure, form {
  * ========================================================================== */
 /* Corrects margin displayed oddly in IE6/7 */
 /* Define consistent margin and padding */
-/* line 229, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 fieldset {
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
@@ -254,7 +224,6 @@ fieldset {
 
 /* 1. Corrects color not being inherited in IE6/7/8/9
  * 2. Corrects alignment displayed oddly in IE6/7 */
-/* line 237, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 legend {
   border: 0;
   /* 1 */
@@ -265,7 +234,6 @@ legend {
 /* 1. Corrects font size not being inherited in all browsers
  * 2. Addresses margins set differently in IE6/7, F3/4, S5, Chrome
  * 3. Improves appearance and consistency in all browsers */
-/* line 248, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 button, input, select, textarea {
   font-size: 100%;
   /* 1 */
@@ -279,7 +247,6 @@ button, input, select, textarea {
 
 /* 1. Addresses FF3/4 setting line-height using !important in the UA stylesheet
  * 2. Corrects inner spacing displayed oddly in IE6/7 */
-/* line 262, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 button, input {
   line-height: normal;
   /* 1 */
@@ -289,14 +256,12 @@ button, input {
 
 /* Corrects overlap and whitespace issue for buttons and inputs in IE6/7
  * Known issue: reintroduces inner spacing */
-/* line 273, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 table button, table input {
   *overflow: auto;
 }
 
 /* 1. Improves usability and consistency of cursor style between image-type 'input' and others
  * 2. Corrects inability to style clickable 'input' types in iOS */
-/* line 280, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 button, html input[type="button"] {
   cursor: pointer;
   /* 1 */
@@ -304,21 +269,18 @@ button, html input[type="button"] {
   /* 2 */
 }
 
-/* line 287, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 input[type="reset"], input[type="submit"] {
   cursor: pointer;
   /* 1 */
   -webkit-appearance: button;
   /* 2 */
 }
-/* line 292, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
 }
-/* line 297, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -327,7 +289,6 @@ input[type="search"] {
   /* 2 */
   box-sizing: content-box;
 }
-/* line 304, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -339,7 +300,6 @@ input[type="search"]::-webkit-search-decoration {
 /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
 /* Corrects inner padding and border displayed oddly in FF3/4
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
-/* line 322, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
@@ -347,7 +307,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 /* 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers */
-/* line 330, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 textarea {
   overflow: auto;
   /* 1 */
@@ -359,24 +318,20 @@ textarea {
  * Tables
  * ========================================================================== */
 /* Remove most spacing between table cells */
-/* line 343, ../extensions/survivalkit/stylesheets/survivalkit/reset/_normalize.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 13, ../extensions/survivalkit/stylesheets/survivalkit/reset/_reset.sass */
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
-/* line 1, ../extensions/survivalkit/stylesheets/survivalkit/extend/_helpers.sass */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 4, ../extensions/survivalkit/stylesheets/survivalkit/extend/_helpers.sass */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -388,7 +343,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 1px;
 }
 
-/* line 7, ../extensions/survivalkit/stylesheets/survivalkit/extend/_helpers.sass */
 .visuallyhidden.focusable {
   border: 0;
   clip: rect(0 0 0 0);
@@ -399,7 +353,6 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 1px;
 }
-/* line 15, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_helpers.sass */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -409,76 +362,62 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
 }
 
-/* line 10, ../extensions/survivalkit/stylesheets/survivalkit/extend/_helpers.sass */
 .invisible {
   visibility: hidden;
 }
 
-/* line 13, ../extensions/survivalkit/stylesheets/survivalkit/extend/_helpers.sass */
 .italic, address, em, cite, q, dfn, i {
   font-style: italic;
 }
 
-/* line 16, ../extensions/survivalkit/stylesheets/survivalkit/extend/_helpers.sass */
 .bold, strong, dfn, b {
   font-weight: bold;
 }
 
-/* line 19, ../extensions/survivalkit/stylesheets/survivalkit/extend/_helpers.sass */
 .wireframe {
   outline: 1px dashed red;
 }
 
-/* line 2, ../sass/partials/02-extend/_typography.sass */
 .serif {
   font-family: Georgia, serif;
 }
 
-/* line 5, ../sass/partials/02-extend/_typography.sass */
 .sans, .textinput, textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=time], input[type=number], input[type=range], input[type=search], input[type=color] {
   font-family: sans-serif;
 }
 
-/* line 8, ../sass/partials/02-extend/_typography.sass */
 .mono, pre, code, kbd, tt, body.survival-kit article.element .example .markup + .show-source {
   font-family: Consolas, Menlo, "Courier New", monospace, monospace;
   _font-family: Consolas, Menlo, "Courier New", monospace, monospace;
 }
 
-/* line 12, ../sass/partials/02-extend/_typography.sass */
 .caps, .allcaps, .smallcaps {
   font-size: 0.9em;
   letter-spacing: 0.1em;
 }
 
-/* line 16, ../sass/partials/02-extend/_typography.sass */
 .headers, .h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
   font-family: sans-serif;
 }
 
-/* line 20, ../sass/partials/02-extend/_typography.sass */
 .allcaps {
   text-transform: uppercase;
 }
 
-/* line 24, ../sass/partials/02-extend/_typography.sass */
 .amp {
   font-family: Georgia, serif;
 }
 
-/* line 27, ../sass/partials/02-extend/_typography.sass */
 .smallcaps {
   font-variant: small-caps;
 }
 
-/* line 31, ../sass/partials/02-extend/_typography.sass */
 .dquo {
   margin-left: -0.5em;
   font-family: Georgia, serif;
 }
 
 /* Only use the fancy ampersand in <h#> tags */
-/* line 36, ../sass/partials/02-extend/_typography.sass */
 h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
   font-size: 1em;
   font-family: Georgia, serif;
@@ -488,7 +427,6 @@ h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
 /* 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
  * 2. Force vertical scrollbar in non-IE
  * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g */
-/* line 6, ../sass/partials/03-defaults/_common.sass */
 html {
   font-size: 100%;
   overflow-y: scroll;
@@ -499,18 +437,15 @@ html {
 /* Body -------------------------------------------------------------- */
 /* Establish baseline rhythm
  * from compass/typography/_vertical_rhythm */
-/* line 51, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 body {
   font-size: 87.5%;
   line-height: 1.714em;
 }
 
-/* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html > body {
   font-size: 14px;
 }
 
-/* line 21, ../sass/partials/03-defaults/_common.sass */
 body {
   font-family: Georgia, serif;
   color: black;
@@ -519,14 +454,12 @@ body {
 
 /* Selected Text -------------------------------------------------------------- */
 /* -moz- must be declared separately */
-/* line 30, ../sass/partials/03-defaults/_common.sass */
 ::-moz-selection {
   color: black;
   background: #ff69b4;
   text-shadow: none;
 }
 
-/* line 36, ../sass/partials/03-defaults/_common.sass */
 ::selection {
   color: black;
   background: #ff69b4;
@@ -535,18 +468,15 @@ body {
 
 /* import font files using @font-face, if not using a service such as typekit */
 /* Headings -------------------------------------------------------------- */
-/* line 4, ../sass/partials/03-defaults/markup/_headers.sass */
 .h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
-/* line 1, ../sass/partials/03-defaults/markup/_grouping.sass */
 p {
   margin-bottom: 1.714em;
 }
 
-/* line 6, ../sass/partials/03-defaults/markup/_grouping.sass */
 pre {
   margin: 1.714em;
   white-space: pre;
@@ -554,7 +484,6 @@ pre {
   word-wrap: break-word;
 }
 
-/* line 13, ../sass/partials/03-defaults/markup/_grouping.sass */
 blockquote {
   margin: 1.714em 21.875px;
   font-style: italic;
@@ -562,107 +491,85 @@ blockquote {
 }
 
 /* Lists -------------------------------------------------------------- */
-/* line 20, ../sass/partials/03-defaults/markup/_grouping.sass */
 ol, ul {
   padding-left: 21.875px;
 }
 
-/* line 24, ../sass/partials/03-defaults/markup/_grouping.sass */
 dl {
   margin-left: 0;
 }
 
-/* line 27, ../sass/partials/03-defaults/markup/_grouping.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 30, ../sass/partials/03-defaults/markup/_grouping.sass */
 ul {
   list-style: disc;
 }
-/* line 32, ../sass/partials/03-defaults/markup/_grouping.sass */
 li ul {
   list-style-type: circle;
 }
 
-/* line 35, ../sass/partials/03-defaults/markup/_grouping.sass */
 dt {
   margin-top: 1.714em;
   font-style: italic;
   color: black;
 }
-/* line 39, ../sass/partials/03-defaults/markup/_grouping.sass */
 dt:first-of-type {
   margin-top: 0em;
 }
 
-/* line 42, ../sass/partials/03-defaults/markup/_grouping.sass */
 dd {
   padding-left: 21.875px;
 }
 
 /* Links -------------------------------------------------------------- */
-/* line 2, ../sass/partials/03-defaults/markup/_semantics.sass */
 a {
   color: #ff69b4;
 }
-/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
   color: #ff69b4;
 }
-/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
   color: #69ffb4;
 }
-/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
   color: #69ffb4;
 }
-/* line 4, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 a {
   text-decoration: none;
   border-bottom: 1px solid #ff69b4;
 }
-/* line 8, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 a:visited {
   border-bottom-color: #ff69b4;
 }
-/* line 14, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 a:hover {
   border-bottom-color: #69ffb4;
 }
-/* line 17, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 a:active {
   border-bottom-color: #69ffb4;
 }
 
-/* line 13, ../sass/partials/03-defaults/markup/_semantics.sass */
 small {
   font-size: 0.8em;
   line-height: 2.143em;
 }
 
-/* line 21, ../sass/partials/03-defaults/markup/_semantics.sass */
 q {
   quotes: "“" "”";
 }
-/* line 24, ../sass/partials/03-defaults/markup/_semantics.sass */
 q:before {
   content: open-quote;
 }
-/* line 26, ../sass/partials/03-defaults/markup/_semantics.sass */
 q:after {
   content: close-quote;
 }
 
-/* line 33, ../sass/partials/03-defaults/markup/_semantics.sass */
 abbr, acronym {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 52, ../sass/partials/03-defaults/markup/_semantics.sass */
 sup, sub {
   font-size: 75%;
   line-height: 0;
@@ -670,36 +577,30 @@ sup, sub {
   vertical-align: baseline;
 }
 
-/* line 58, ../sass/partials/03-defaults/markup/_semantics.sass */
 sup {
   top: -0.5em;
 }
 
-/* line 61, ../sass/partials/03-defaults/markup/_semantics.sass */
 sub {
   bottom: -0.25em;
 }
 
-/* line 72, ../sass/partials/03-defaults/markup/_semantics.sass */
 mark {
   background: red;
   background-color: rgba(255, 255, 0, 0.5);
   text-shadow: none;
 }
 
-/* line 1, ../sass/partials/03-defaults/markup/_edits.sass */
 ins {
   text-decoration: none;
   border-bottom: 1px solid black;
 }
 
-/* line 5, ../sass/partials/03-defaults/markup/_edits.sass */
 del {
   text-decoration: line-through;
 }
 
 /* Images -------------------------------------------------------------- */
-/* line 3, ../sass/partials/03-defaults/markup/_images.sass */
 img {
   border: 0;
   vertical-align: text-bottom;
@@ -707,12 +608,10 @@ img {
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
-/* line 9, ../sass/partials/03-defaults/markup/_images.sass */
 img.left {
   float: left;
   margin: 10.5px 21.875px 10.5px 0;
 }
-/* line 12, ../sass/partials/03-defaults/markup/_images.sass */
 img.right {
   float: right;
   margin: 10.5px 0 10.5px 21.875px;
@@ -720,63 +619,51 @@ img.right {
 
 /* Tables -------------------------------------------------------------- */
 /* tables still need 'cellspacing="0"' in the markup */
-/* line 4, ../sass/partials/03-defaults/markup/_tables.sass */
 table {
   max-width: 100%;
 }
 
-/* line 8, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_tiny {
   width: 50px;
 }
 
-/* line 11, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_small {
   width: 100px;
 }
 
-/* line 14, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_medium {
   width: 150px;
 }
 
-/* line 17, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_large {
   width: 200px;
 }
 
-/* line 20, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_xlarge {
   width: 250px;
 }
 
-/* line 23, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_xxlarge {
   width: 300px;
 }
 
-/* line 26, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_full {
   width: 100%;
 }
 
-/* line 31, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_full_wrap {
   display: block;
   padding-right: 8px;
 }
 
-/* line 38, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 ::-moz-focus-inner {
   border: 0;
 }
 
-/* line 41, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-/* line 44, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input,
 button,
 select,
@@ -788,7 +675,6 @@ textarea {
   vertical-align: middle;
 }
 
-/* line 54, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button,
 input[type="reset"],
 input[type="submit"],
@@ -821,13 +707,11 @@ input[type="button"] {
   *padding-bottom: 0px;
 }
 
-/* line 77, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
 
-/* line 82, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button[disabled],
 input[type="reset"][disabled],
 input[type="submit"][disabled],
@@ -835,7 +719,6 @@ input[type="button"][disabled] {
   color: #888888;
 }
 
-/* line 88, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea,
 select,
 input[type="date"],
@@ -876,18 +759,15 @@ input[type="week"] {
   *height: auto;
 }
 
-/* line 125, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input.placeholder-text,
 textarea.placeholder-text {
   color: #888888;
 }
 
-/* line 129, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 ::-webkit-input-placeholder {
   color: #888888;
 }
 
-/* line 132, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea[disabled],
 select[disabled],
 input[type="date"][disabled],
@@ -907,7 +787,6 @@ input[type="week"][disabled] {
   color: #888888;
 }
 
-/* line 150, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button:focus,
 button:active,
 input:focus,
@@ -922,7 +801,6 @@ textarea:active {
   z-index: 1;
 }
 
-/* line 165, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input[type="radio"]:focus,
 input[type="radio"]:active,
 input[type="checkbox"]:focus,
@@ -932,7 +810,6 @@ input[type="checkbox"]:active {
   box-shadow: none;
 }
 
-/* line 173, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .is_webkit select {
   background-image: url(../images/select_arrow.gif);
   background-repeat: no-repeat;
@@ -940,20 +817,17 @@ input[type="checkbox"]:active {
   padding-right: 20px;
 }
 
-/* line 181, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea,
 select[multiple] {
   height: auto;
 }
 
-/* line 185, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 select[multiple],
 .is_webkit select[multiple] {
   background-image: none;
   padding: 0;
 }
 
-/* line 190, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea {
   min-height: 40px;
   overflow: auto;
@@ -961,14 +835,12 @@ textarea {
   width: 100%;
 }
 
-/* line 196, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 optgroup {
   color: black;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 224, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .ie6_button,
 * html button {
   background: #dddddd url(../images/button.png) repeat-x;
@@ -982,13 +854,11 @@ optgroup {
   width: auto;
 }
 
-/* line 236, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 * html button {
   padding-top: 1px;
   padding-bottom: 1px;
 }
 
-/* line 240, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .ie6_input,
 * html textarea,
 * html select {
@@ -1002,76 +872,62 @@ optgroup {
   vertical-align: top;
 }
 
-/* line 252, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 * html select {
   margin-top: 1px;
 }
 
-/* line 255, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .placeholder_text,
 .ie6_input_disabled,
 .ie6_button_disabled {
   color: #888888;
 }
 
-/* line 260, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .ie6_input_disabled {
   background: #eeeeee;
 }
 
 /* Forms -------------------------------------------------------------- */
-/* line 8, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_tiny {
   width: 50px;
 }
 
-/* line 11, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_small {
   width: 100px;
 }
 
-/* line 14, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_medium {
   width: 150px;
 }
 
-/* line 17, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_large {
   width: 200px;
 }
 
-/* line 20, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_xlarge {
   width: 250px;
 }
 
-/* line 23, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_xxlarge {
   width: 300px;
 }
 
-/* line 26, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_full {
   width: 100%;
 }
 
-/* line 31, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .input_full_wrap {
   display: block;
   padding-right: 8px;
 }
 
-/* line 38, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 ::-moz-focus-inner {
   border: 0;
 }
 
-/* line 41, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-/* line 44, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input,
 button,
 select,
@@ -1083,7 +939,6 @@ textarea {
   vertical-align: middle;
 }
 
-/* line 54, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button,
 input[type="reset"],
 input[type="submit"],
@@ -1116,13 +971,11 @@ input[type="button"] {
   *padding-bottom: 0px;
 }
 
-/* line 77, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
 
-/* line 82, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button[disabled],
 input[type="reset"][disabled],
 input[type="submit"][disabled],
@@ -1130,7 +983,6 @@ input[type="button"][disabled] {
   color: #888888;
 }
 
-/* line 88, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea,
 select,
 input[type="date"],
@@ -1171,18 +1023,15 @@ input[type="week"] {
   *height: auto;
 }
 
-/* line 125, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input.placeholder-text,
 textarea.placeholder-text {
   color: #888888;
 }
 
-/* line 129, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 ::-webkit-input-placeholder {
   color: #888888;
 }
 
-/* line 132, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea[disabled],
 select[disabled],
 input[type="date"][disabled],
@@ -1202,7 +1051,6 @@ input[type="week"][disabled] {
   color: #888888;
 }
 
-/* line 150, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 button:focus,
 button:active,
 input:focus,
@@ -1217,7 +1065,6 @@ textarea:active {
   z-index: 1;
 }
 
-/* line 165, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 input[type="radio"]:focus,
 input[type="radio"]:active,
 input[type="checkbox"]:focus,
@@ -1227,7 +1074,6 @@ input[type="checkbox"]:active {
   box-shadow: none;
 }
 
-/* line 173, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .is_webkit select {
   background-image: url(../images/select_arrow.gif);
   background-repeat: no-repeat;
@@ -1235,20 +1081,17 @@ input[type="checkbox"]:active {
   padding-right: 20px;
 }
 
-/* line 181, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea,
 select[multiple] {
   height: auto;
 }
 
-/* line 185, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 select[multiple],
 .is_webkit select[multiple] {
   background-image: none;
   padding: 0;
 }
 
-/* line 190, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 textarea {
   min-height: 40px;
   overflow: auto;
@@ -1256,14 +1099,12 @@ textarea {
   width: 100%;
 }
 
-/* line 196, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 optgroup {
   color: black;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 224, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .ie6_button,
 * html button {
   background: #dddddd url(../images/button.png) repeat-x;
@@ -1277,13 +1118,11 @@ optgroup {
   width: auto;
 }
 
-/* line 236, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 * html button {
   padding-top: 1px;
   padding-bottom: 1px;
 }
 
-/* line 240, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .ie6_input,
 * html textarea,
 * html select {
@@ -1297,24 +1136,20 @@ optgroup {
   vertical-align: top;
 }
 
-/* line 252, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 * html select {
   margin-top: 1px;
 }
 
-/* line 255, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .placeholder_text,
 .ie6_input_disabled,
 .ie6_button_disabled {
   color: #888888;
 }
 
-/* line 260, ../sass/partials/03-defaults/markup/forms/_formalize.sass */
 .ie6_input_disabled {
   background: #eeeeee;
 }
 
-/* line 8, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 fieldset {
   margin-bottom: 1.714em;
   border-style: solid;
@@ -1324,23 +1159,19 @@ fieldset {
   border-style: dotted;
 }
 
-/* line 14, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 legend {
   padding: 0 0.25em;
 }
 
-/* line 17, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 label, input[type=button], input[type=submit], button {
   cursor: pointer;
 }
 
-/* line 20, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 label {
   font-weight: bold;
   margin-right: 0.5em;
 }
 
-/* line 24, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 .textinput, textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=time], input[type=number], input[type=range], input[type=search], input[type=color] {
   font-size: 1em;
   line-height: 1.714em;
@@ -1360,27 +1191,22 @@ label {
   height: 2.571em;
 }
 
-/* line 37, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 textarea {
   height: 11.143;
 }
 
-/* line 47, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 input[type=search] {
   -webkit-appearance: none;
 }
-/* line 49, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 input[type=search]::-webkit-search-decoration {
   display: none;
 }
 
-/* line 52, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 button, input[type=button], input[type=submit] {
   width: auto;
   overflow: visible;
 }
 
-/* line 57, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 textarea {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1389,132 +1215,352 @@ textarea {
   width: 301.875px;
 }
 
-/* line 62, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 input[type="radio"], input[type="checkbox"] {
   margin-left: 0.25em;
   margin-right: 0.25em;
 }
 
-/* line 66, ../sass/partials/03-defaults/markup/forms/_form-defaults.sass */
 textarea, input:not([type="radio"]) {
   max-width: 100%;
 }
 
+/* DEFINE THE GRID CONTAINER -------------------------------------------------------------- */
+.container, #main {
+  *zoom: 1;
+  margin: auto;
+  width: 949.375px;
+  max-width: 100%;
+}
+.container:after, #main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* LAYOUT -------------------------------------------------------------- */
+#main {
+  width: 95%;
+}
+@media screen and (min-width: 750px) {
+  #main article {
+    display: inline;
+    float: left;
+    width: 65.899%;
+    margin-right: 2.304%;
+  }
+  #main > footer {
+    display: inline;
+    float: left;
+    width: 31.797%;
+    margin-right: 2.304%;
+    display: inline;
+    float: right;
+    margin-right: 0;
+    #margin-left: -21.875px;
+  }
+}
+#main .sidenote {
+  clear: both;
+}
+@media screen and (min-width: 500px) and (max-width: 750px) {
+  #main .sidenote {
+    display: inline;
+    float: left;
+    width: 48.848%;
+    margin-right: 2.304%;
+    display: inline;
+    float: right;
+    margin-right: 0%;
+    #margin-left: -21.875px;
+    margin-left: 3.497%;
+  }
+}
+@media screen and (min-width: 750px) {
+  #main .sidenote {
+    display: inline;
+    float: left;
+    width: 48.252%;
+    margin-right: 3.497%;
+    display: inline;
+    float: right;
+    margin-right: 0;
+    #margin-left: -21.875px;
+    margin-left: 3.497%;
+  }
+}
+
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
-/* line 8, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
+body {
+  background: #e6e6e6;
+  color: #1a1a1a;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  color: #930000;
+}
+
+h2 {
+  color: #b80000;
+}
+
+.kicker, blockquote {
+  font-size: 19.2px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 500px) {
+  figure {
+    max-width: 50%;
+    float: right;
+  }
+}
+figure img {
+  max-width: 100%;
+}
+figure figcaption {
+  background: rgba(184, 0, 0, 0.5);
+}
+
+.sidenote {
+  border: 4px solid #b87b00;
+  padding: 0 0.5em;
+  margin-bottom: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+}
+.sidenote h1 {
+  color: #b87b00;
+  font-family: sans-serif;
+  text-shadow: #1a1a1a 1px 1px 1px;
+}
+.sidenote ol, .sidenote ul {
+  margin-left: 0;
+}
+
+blockquote {
+  border-left: 4px solid #930000;
+  padding-left: 0.25em;
+}
+
+ol, ul {
+  margin-left: 1em;
+}
+ol.footnote, ul.footnote {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 12.8px;
+}
+
+header h1 {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('../images/logo.png?1322720874');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 52px;
+  height: 32px;
+}
+
+.badges-sprite, .badges-clean-start, .badges-code-viewer, .badges-color, .badges-drupal-ui-patterns, .badges-fonts, .badges-html5, .badges-jquery-plugins, .badges-sass-mixins, .badges-step-by-step, .badges-ui-patterns {
+  background: url('../images/badges-sdc3249f73f.png') no-repeat;
+}
+
+.badges-clean-start {
+  background-position: 0 0;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-code-viewer {
+  background-position: 0 -115px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-color {
+  background-position: 0 -230px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-drupal-ui-patterns {
+  background-position: 0 -345px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-fonts {
+  background-position: 0 -460px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-html5 {
+  background-position: 0 -575px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-jquery-plugins {
+  background-position: 0 -690px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-sass-mixins {
+  background-position: 0 -805px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-step-by-step {
+  background-position: 0 -920px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges-ui-patterns {
+  background-position: 0 -1035px;
+  height: 115px;
+  width: 115px;
+}
+
+.badges {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+}
+.badges li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.badges li:first-child, .badges li.first {
+  padding-left: 0;
+}
+.badges li:last-child {
+  padding-right: 0;
+}
+.badges li.last {
+  padding-right: 0;
+}
+
 body.survival-kit header h1 {
   font-size: 2.618em;
-  line-height: 1.31em;
+  line-height: 1.146em;
 }
-/* line 10, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit header h2 {
   font-size: 2.441em;
-  line-height: 1.404em;
+  line-height: 1.229em;
 }
-/* line 12, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit h1.section-title {
   font-size: 1.953em;
-  line-height: 1.755em;
-  background-color: #d3d3d3;
+  line-height: 1.536em;
+  background-color: #e6e6e6;
   text-transform: uppercase;
   padding-left: 10.938px;
 }
-/* line 17, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit h1.section-title a {
   color: black;
 }
-/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body.survival-kit h1.section-title a:visited {
   color: black;
 }
-/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body.survival-kit h1.section-title a:hover {
   color: #ff69b4;
 }
-/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body.survival-kit h1.section-title a:active {
   color: #ff69b4;
 }
-/* line 4, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit h1.section-title a {
   text-decoration: none;
   border-bottom: 1px solid black;
 }
-/* line 8, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit h1.section-title a:visited {
   border-bottom-color: black;
 }
-/* line 14, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit h1.section-title a:hover {
   border-bottom-color: #ff69b4;
 }
-/* line 17, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit h1.section-title a:active {
   border-bottom-color: #ff69b4;
 }
-/* line 20, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element {
   *zoom: 1;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 21px;
   padding-bottom: 20px;
 }
-/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body.survival-kit article.element:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 11, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_layout.sass */
 body.survival-kit article.element:last-child {
   padding-bottom: 0;
   border-bottom-width: 0;
   margin-bottom: 0;
 }
-/* line 22, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element h2.element-title {
   font-size: 1em;
-  line-height: 1.714em;
+  line-height: 1.5em;
   background-color: gray;
   color: white;
   text-transform: uppercase;
   padding-left: 10.938px;
 }
-/* line 28, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element h2.element-title a {
   color: white;
 }
-/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body.survival-kit article.element h2.element-title a:visited {
   color: white;
 }
-/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body.survival-kit article.element h2.element-title a:hover {
   color: #ff69b4;
 }
-/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body.survival-kit article.element h2.element-title a:active {
   color: #ff69b4;
 }
-/* line 4, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit article.element h2.element-title a {
   text-decoration: none;
   border-bottom: 1px solid white;
 }
-/* line 8, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit article.element h2.element-title a:visited {
   border-bottom-color: white;
 }
-/* line 14, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit article.element h2.element-title a:hover {
   border-bottom-color: #ff69b4;
 }
-/* line 17, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_typography.sass */
 body.survival-kit article.element h2.element-title a:active {
   border-bottom-color: #ff69b4;
 }
-/* line 31, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element .example {
   *zoom: 1;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
@@ -1522,43 +1568,36 @@ body.survival-kit article.element .example {
   padding-bottom: 9.5px;
   *zoom: 1;
 }
-/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body.survival-kit article.element .example:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 11, ../extensions/survivalkit/stylesheets/survivalkit/mixins/_layout.sass */
 body.survival-kit article.element .example:last-child {
   padding-bottom: 0;
   border-bottom-width: 0;
   margin-bottom: 0;
 }
-/* line 38, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 body.survival-kit article.element .example:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 34, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element .example .markup {
   display: inline;
   float: left;
   width: 64.228%;
   margin-right: 2.439%;
 }
-/* line 40, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element .example .markup + .show-source {
   display: inline;
   float: right;
   width: 30.894%;
   margin-right: 0;
 }
-/* line 49, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element .example .markup + .show-source .show-hide {
   text-align: right;
 }
-/* line 51, ../extensions/survivalkit/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit article.element .example .markup + .show-source + p {
   clear: both;
 }
