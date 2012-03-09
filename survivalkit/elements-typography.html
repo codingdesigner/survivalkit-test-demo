@@ -85,6 +85,7 @@
       </nav>
       <div id='main' role='main'>
         <article>
+          <div class="logo">The Coding Designer's Survival Kit </div>
           <h1><span class='kern'>T</span>ype-a-file Gives Your Web
             <span class='kern'>T</span>ypography
             a Head Start
@@ -93,14 +94,16 @@
             <p>Below you’ll find some text marked up with the core elements of Type-a-file. View the source code to find out how to use them on your own site. This element, for example is called a “kicker.” It’s paragraph text that introduces the rest of the text. It’s useful for outlining your topic & looks killer. Just create a div with class=“kicker” and throw some paragraphs into it. Blammo!</p>
           </div>
           <h2>The Typographic Basics</h2>
-          <img alt='placeholder image' src='http://dummyimage.com/480x248/ccc/fff' />
-          <div class='caption'>You’ll often want to caption photos. This is a .caption class</div>
+          <figure>
+            <img alt='placeholder image' src='http://dummyimage.com/480x248/ccc/fff' />
+            <figcaption>You’ll often want to caption photos. This is a .caption class</figcaption>
+          </figure>
           <p><span class='drop-cap'>P</span>aragraphs are the core building block of typography online. You want to make sure you’ve got a good line-height and horizontal width—aka measure—for good readability. If you stack your lines too close together, or too far apart, lines become harder to read. Like a staircase where the steps are too shallow or too steep. The standard line-height online is something between 1.5 and 2.0 ems.
             <a class='superscript' href='#ems'>1</a>
             If your lines stretch too far across the page reading can feel like a tedious marathon. The standard single-column width online is about 70-90 characters.
           </p>
           <aside class='sidenote'>
-            <h1>This is a “sidenote”</h1>
+            <h4>This is a “sidenote”</h4>
             <p>
               It’s different than a sidebar because its content are directly related to the main content at left. When
               <abbr>html5</abbr>
@@ -124,7 +127,7 @@
             We’ve created a class called .run-in so that you can! Best practices claim you’ll usually want to keep those run-ins to one line.
           </p>
           <aside class='sidenote'>
-            <h1>Another sidenote.</h1>
+            <h4>Another sidenote.</h4>
             <p>I thought it might be interesting to show you that you can put lists into sidenotes:</p>
             <ul>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -148,7 +151,7 @@
             <li>Then it has a third item.</li>
             <li>Followed by the fourth, and—in this case—last item.</li>
           </ol>
-          <ul>
+          <ul class="footnote">
             <li>Un-ordered lists are just as simple.</li>
             <li>The only difference being that the items are marks by bullets instead of numbers.</li>
             <li>Don’t forget that lists can have list titles.</li>
