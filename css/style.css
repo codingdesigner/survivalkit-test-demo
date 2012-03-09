@@ -864,19 +864,6 @@ input[type="radio"], input[type="checkbox"] {
   margin-right: 0.25em;
 }
 
-/* DEFINE THE GRID CONTAINER -------------------------------------------------------------- */
-.container, #page {
-  *zoom: 1;
-  margin: auto;
-  width: 965px;
-  max-width: 100%;
-}
-.container:after, #page:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* LAYOUT -------------------------------------------------------------- */
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
