@@ -29,6 +29,18 @@
   }
 }
 
+/* Variables as full query */
+@media only screen and (max-width : 320px) {
+  background: red;
+}
+/* Variables on either side of the colon in a query */
+@media screen and (max-device-width: 320px) {
+  background: red;
+}
+/* you need interpolation braces in order to do math on a variable in a query */
+@media screen and (max-device-width: 321px) {
+  background: red;
+}
 /* Variables in queries, using @content */
 .profile-pic {
   float: left;

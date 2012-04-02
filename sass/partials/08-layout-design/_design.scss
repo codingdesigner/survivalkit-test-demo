@@ -6,7 +6,6 @@
 $break-small: 320px;
 $break-large: 1200px;
 
-
 .profile-pic {
   float: left;
   width: 250px;
@@ -16,6 +15,28 @@ $break-large: 1200px;
   @media screen and (min-width: $break-large) {
     float: none;
   }
+}
+
+
+/* Variables as full query */
+$information-phone: "only screen and (max-width : 320px)";
+
+@media #{$information-phone} {
+  background: red;
+}
+
+
+/* Variables on either side of the colon in a query */
+$width-name: max-device-width;
+$target-width: 320px;
+
+@media screen and ($width-name : $target-width) {
+  background: red;
+}
+
+/* you need interpolation braces in order to do math on a variable in a query */
+@media screen and ($width-name : #{$target-width + 1}) {
+  background: red;
 }
 
 
