@@ -11,9 +11,10 @@ $break-large: 1200px;
   width: 250px;
   @media screen and (max-width: $break-small) {
     width: 100px;
+    float: none;
   }
   @media screen and (min-width: $break-large) {
-    float: none;
+    float: right;
   }
 }
 
@@ -68,19 +69,34 @@ $break-large: 1024px;
 /* Extending Inside of a Media Query */
 /* http://designshack.net/articles/css/sass-and-media-queries-what-you-can-and-cant-do/ */
 
-.errorOne {
-  font-size: 10px;
-  font-weight: 400;
+.red {
+  color: red;
   }
 
-.errorTwo {
-  font-size: 20px;
-  font-weight: 200;
+.blue {
+  color: blue;
 }
 
 @media only screen and (max-width : 300px){
-  .errorTwo {
-    @extend .errorOne;
-    color: blue;
+  .blue {
+    @extend .red;
+    margin: 10px;
   }
 }
+
+
+/* Combining @media Queries on Compile */
+
+.profile-pic {
+  @media screen and (max-width: 320px) {
+    width: 100px;
+    float: none;
+  }
+}
+
+.biography {
+  @media screen and (max-width: 320px) {
+    font-size: 1.5em;
+  }
+}
+

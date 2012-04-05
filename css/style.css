@@ -21,11 +21,12 @@
 @media screen and (max-width: 320px) {
   .profile-pic {
     width: 100px;
+    float: none;
   }
 }
 @media screen and (min-width: 1200px) {
   .profile-pic {
-    float: none;
+    float: right;
   }
 }
 
@@ -64,18 +65,29 @@
 
 /* Extending Inside of a Media Query */
 /* http://designshack.net/articles/css/sass-and-media-queries-what-you-can-and-cant-do/ */
-.errorOne, .errorTwo {
-  font-size: 10px;
-  font-weight: 400;
+.red, .blue {
+  color: red;
 }
 
-.errorTwo {
-  font-size: 20px;
-  font-weight: 200;
+.blue {
+  color: blue;
 }
 
 @media only screen and (max-width: 300px) {
-  .errorTwo {
-    color: blue;
+  .blue {
+    margin: 10px;
+  }
+}
+/* Combining @media Queries on Compile */
+@media screen and (max-width: 320px) {
+  .profile-pic {
+    width: 100px;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .biography {
+    font-size: 1.5em;
   }
 }
