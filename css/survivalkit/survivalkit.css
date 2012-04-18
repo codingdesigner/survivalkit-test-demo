@@ -182,10 +182,10 @@ body.survival-kit header h1 {
   font-family: futura, sans-serif;
 }
 body.survival-kit header h1 a {
-  text-indent: -119988px;
+  text-indent: 110%;
+  white-space: nowrap;
   overflow: hidden;
-  text-align: left;
-  background-image: url('../../images/survival-kit-logo.png?1331265476');
+  background-image: url('../../images/survival-kit-logo.png?1333000358');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 220px;

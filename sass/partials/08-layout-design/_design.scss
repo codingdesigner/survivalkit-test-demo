@@ -1,0 +1,169 @@
+// Create the design for your site below
+/* SITE-WIDE DESIGN -------------------------------------------------------------- */
+
+#page > header, nav.kit-nav {
+  display: none;
+}
+
+// Create the design for your site below
+/* SITE-WIDE DESIGN -------------------------------------------------------------- */
+
+// VARIABLES
+$badass: #bada55;
+$darkgray: scale-color($black, $lightness: 10%);
+$lightgray: scale-color($white, $lightness: -10%);
+$badass-dark: scale-color($badass, $lightness: -20%);
+$badass-trans: rgba($badass, 0.5);
+$badass-derived: adjust-hue($badass, 110deg);
+// $badass-trans: rgba($badass, 0.5);
+
+$font-sans: sans-serif;
+$font-serifs: Georgia, serif;
+
+$font-size: 16px;
+
+////////////////////////////
+// STYLES
+////////////////////////////
+body {
+  background: $lightgray;
+  // inline color functions
+  // background: adjust-color($badass, $lightness: -20%, $alpha: -0.5);
+  color: $darkgray;
+  font-family: $font-sans;
+  font-size: $font-size;
+  line-height: 1.5;
+  // css3 mixin (compass)
+  // @include background-image(linear-gradient(left, $lightgray, $badass-trans));
+}
+
+////////////////////////////
+// NESTING
+////////////////////////////
+article {
+  h1, h2 {
+    font-family: $font-serifs;
+    font-weight: bold;
+  }
+  h1 {
+    color: $badass;
+  }
+  h2 {
+    color: $badass-dark;
+  }
+}
+
+////////////////////////////
+// MATH
+////////////////////////////
+.kicker {
+  font-size: $font-size * 1.2;
+  line-height: 1.3;
+}
+
+////////////////////////////
+// @MEDIA BUBBLING
+////////////////////////////
+figure {
+  @media screen and (min-width: 500px) {
+    max-width: 50%;
+    float: right;
+  }
+  img {
+    max-width: 100%;
+  }
+  figcaption {
+    background: $badass-trans;
+  }
+}
+
+////////////////////////////
+// MIXIN
+////////////////////////////
+
+@mixin float-aside($width: 33%) {
+  width: $width;
+  clear: both;
+  float: right;
+  margin-left: 1em;
+}
+
+////////////////////////////
+// PUT IT TOGETHER
+////////////////////////////
+.sidenote {
+  border: 1px solid $badass-derived;
+  padding: 0 0.5em;
+  margin-bottom: 1em;
+  // css3 mixin (compass)
+  @include border-radius($font-size * 0.5);
+  // css3 mixin (compass)
+  // @include box-shadow(rgba($darkgray, 0.2) 0 6px 6px);
+  @include box-shadow(rgba($white, 0.8) 0 0 12px 6px);
+  clear: both;
+  // @media bubbling
+  @media screen and (min-width: 500px) {
+    @include float-aside(50%);
+  }
+  h4 {
+    color: darken($badass-derived, 20%);
+    font-family: $font-sans;
+    font-weight: bold;
+    // css3 mixin (compass)
+    @include text-shadow($white 1px 1px 1px);
+  }
+  ol, ul {
+    margin-left: 0;
+    padding-left: 1em;
+  }
+}
+
+////////////////////////////
+// @EXTEND
+////////////////////////////
+blockquote {
+  @extend .kicker;
+  border-left: 4px solid $badass-dark;
+  padding-left: 0.25em;
+}
+
+////////////////////////////
+// & REFERENCE
+////////////////////////////
+ol, ul {
+  margin-left: 1em;
+  &.footnote {
+    font-family: $font-serifs;
+    font-style: italic;
+    font-size: $font-size * 0.8;
+  }
+}
+
+////////////////////////////
+// IMAGE REPLACEMENT
+////////////////////////////
+.logo {
+  @include replace-text-with-dimensions("logo.png");
+}
+
+////////////////////////////
+// SPRITES AND LISTS
+////////////////////////////
+@import "badges/*.png";
+
+$badges-sprite-dimensions: true;
+
+// @include all-badges-sprites;
+
+$badges: clean-start code-viewer color drupal-ui-patterns fonts html5 jquery-plugins sass-mixins step-by-step ui-patterns;
+
+.badges {
+  @include horizontal-list;
+  @include hide-text;
+  @each $badge in $badges {
+    .#{$badge} {
+      // @extend .badges-#{$badge};
+      @include badges-sprite($badge);
+    }
+  }
+}
