@@ -14,10 +14,6 @@
  * https://github.com/canarymason/The-Coding-Designers-Survival-Kit
  * Learn more about Sass & Compass at http://compass-style.org/ */
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
-#page > header, nav.kit-nav {
-  display: none;
-}
-
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 body {
   background: #e6e6e6;
@@ -107,7 +103,7 @@ ol.footnote, ul.footnote {
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('../images/logo.png?1334638499');
+  background-image: url('../images/logo.png?1334764305');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 52px;
@@ -115,7 +111,7 @@ ol.footnote, ul.footnote {
 }
 
 .badges-sprite, .badges .clean-start, .badges .code-viewer, .badges .color, .badges .drupal-ui-patterns, .badges .fonts, .badges .html5, .badges .jquery-plugins, .badges .sass-mixins, .badges .step-by-step, .badges .ui-patterns {
-  background: url('../images/badges-s0765fb9504.png') no-repeat;
+  background: url('../images/badges-s0ff3c45bab.png') no-repeat;
 }
 
 .badges {

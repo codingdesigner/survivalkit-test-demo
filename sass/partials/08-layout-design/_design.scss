@@ -1,17 +1,17 @@
 // Create the design for your site below
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 
-#page > header, nav.kit-nav {
-  display: none;
-}
+// #page > header, nav.kit-nav {
+//   display: none;
+// }
 
 // Create the design for your site below
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 
 // VARIABLES
 $badass: #bada55;
-$darkgray: scale-color($black, $lightness: 10%);
-$lightgray: scale-color($white, $lightness: -10%);
+$darkgray: scale-color(black, $lightness: 10%);
+$lightgray: scale-color(white, $lightness: -10%);
 $badass-dark: scale-color($badass, $lightness: -20%);
 $badass-trans: rgba($badass, 0.5);
 $badass-derived: adjust-hue($badass, 110deg);
